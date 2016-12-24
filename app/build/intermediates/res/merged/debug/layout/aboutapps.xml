@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="four.ingenium.cyberactbd.Aboutapps" >
+
+	    <ScrollView
+        android:id="@+id/scrollViewabout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+                <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:text="
+        আইসিটি অ্যাকট বিডি একটি গণসচেতনা মূলক অ্যাপ্লিকেশন।\n মানুষ কে সচেতন করে তোলা এই আপ্লিকেশন এর মূল লক্ষ্য।\n এই আপ্লিকেশনটি সাংবিধানিক এবং বিশেষজ্ঞ দের মতবাদ নিয়ে তৈরী করা হয়েছে। \n\n\n
+
+আইসিটি অ্যাকট বিডি আপ্লিকেশনটির  মধ্যে আইসিটি আইন '০৬ , সংশোধিত আইন এবং সাইবার ট্রাইবুনাল ও বিচার এই তিন বিভাগের সমস্ত লেখা সাংবিধানিক এবং বাংলাদেশ সরকার কতৃক গেজেট আকারে রবিবার, অক্টোবর ৮ , ২০০৬ সালে প্রকাশিত। 
+ইহার কোনোরূপ পরিবর্তন, পরিমার্জন অথবা কোন অসাধু উদ্দেশে ব্যবহার সম্পূর্ণ বে-আইনি এবং এর শাস্তি জেল অথবা জরিমানা অথবা উভয় দণ্ডে দন্ড ঘোষনা হতে পারে। 
+উপরোক্ত তিনটি বিভাগ ব্যাতিত অন্যান্য লেখা বিশেষজ্ঞদের মতামত বিশ্লেষণ করে তৈরী করা হয়েছে এবং ভিডিওগুলি  YouTube থেকে গ্রহনকৃত। \n\n\n
+
+সর্বোপরি এই আপ্লিকেশন ব্যাবহারের ম্যাধ্যমে যদি মানুষ আইসিটি অ্যাকট সম্পর্কে সচেতন হয় তবেই আপ্লিকেশন এর সার্থকতা।\n\n
+আপনাদের যে কোন তথ্য ও মূল্যবান মতামত জানাতে যোগাযোগ করুন আমাদের Facebook অফিসিয়াল পেজে।" />
+    
+                 <Button
+                    android:id="@+id/facbook"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/fbb" />
+            
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

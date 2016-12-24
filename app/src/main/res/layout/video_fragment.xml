@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="four.ingenium.cyberactbd.Video" 
+    >
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+    <Button
+        android:id="@+id/video1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="আনলাইন চ্যাটিং "
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/video"
+        android:background="@drawable/white"
+         />
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/video2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="ই-মেইল "
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/video"
+        android:background="@drawable/white" />
+    <Button
+        android:id="@+id/video3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="পাসওয়ার্ড "
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/video"
+        android:background="@drawable/white" />
+    <Button
+        android:id="@+id/video4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="ফেইক-আইডি "
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/video"
+        android:background="@drawable/white" />
+    <Button
+        android:id="@+id/video5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="অনলাইন লেনদেন "
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/video"
+        android:background="@drawable/white" />
+
+    </LinearLayout>
+    </ScrollView>
+    
+
+</RelativeLayout>

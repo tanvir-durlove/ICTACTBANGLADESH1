@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/td/Downloads/ICTACTBANGLADESH1/app/build/intermediates/res/merged/debug/raw/cibercrime.mp4",
+        "source": "/home/td/Downloads/ICTACTBANGLADESH1/app/src/main/res/raw/cibercrime.mp4"
+    },
+    {
+        "merged": "/home/td/Downloads/ICTACTBANGLADESH1/app/build/intermediates/res/merged/debug/raw/vdo.mp4",
+        "source": "/home/td/Downloads/ICTACTBANGLADESH1/app/src/main/res/raw/vdo.mp4"
+    },
+    {
+        "merged": "/home/td/Downloads/ICTACTBANGLADESH1/app/build/intermediates/res/merged/debug/raw/emailsecurity.mp4",
+        "source": "/home/td/Downloads/ICTACTBANGLADESH1/app/src/main/res/raw/emailsecurity.mp4"
+    },
+    {
+        "merged": "/home/td/Downloads/ICTACTBANGLADESH1/app/build/intermediates/res/merged/debug/raw/passwordsecurity.mp4",
+        "source": "/home/td/Downloads/ICTACTBANGLADESH1/app/src/main/res/raw/passwordsecurity.mp4"
+    },
+    {
+        "merged": "/home/td/Downloads/ICTACTBANGLADESH1/app/build/intermediates/res/merged/debug/raw/chatting.mp4",
+        "source": "/home/td/Downloads/ICTACTBANGLADESH1/app/src/main/res/raw/chatting.mp4"
+    }
+]

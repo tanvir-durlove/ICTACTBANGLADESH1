@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="four.ingenium.cyberactbd.Ict_law" >
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+             android:layout_marginBottom="50dp">
+	<Button
+        android:id="@+id/lawone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="প্রথম অধ্যায়"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/law_book"
+        android:background="@drawable/white"
+         />
+		<Button
+        android:id="@+id/lawtwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="দ্বিতীয় অধ্যায় "
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/law_book"
+        android:background="@drawable/white"
+         />
+			<Button
+        android:id="@+id/lawthree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="তৃতীয় অধ্যায় "
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/law_book"
+        android:background="@drawable/white"
+         />
+			<Button
+        android:id="@+id/lawfour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="চতুর্থ অধ্যায়"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/law_book"
+        android:background="@drawable/white"
+         />
+			<Button
+        android:id="@+id/lawfive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="পঞ্চম অধ্যায়"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/law_book"
+        android:background="@drawable/white"
+         />
+			<Button
+        android:id="@+id/lawsix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="ষষ্ঠ অধ্যায়"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/law_book"
+        android:background="@drawable/white"
+         />
+			<Button
+        android:id="@+id/lawseven"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="সপ্তম অধ্যায় "
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/law_book"
+        android:background="@drawable/white"
+         />
+			<Button
+        android:id="@+id/laweight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="অষ্টম অধ্যায় "
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/law_book"
+        android:background="@drawable/white"
+         />
+				<Button
+        android:id="@+id/lawnine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="নবম অধ্যায়"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/law_book"
+        android:background="@drawable/white"
+         />
+    </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/homefrmlaw"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/home"
+        android:gravity="center|bottom" />
+
+</RelativeLayout>

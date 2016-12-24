@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="four.ingenium.cyberactbd.Home"
+     >
+    <ScrollView
+        android:id="@+id/scrollView2s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+    <Button
+        android:id="@+id/advice_general"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="সাধারন পরামর্শ"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/advice_general"
+        android:background="@drawable/white"
+         />
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/advice_computer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="কম্পিউটার ব্যাবহারে পরামর্শ"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/advice_computer"
+        android:background="@drawable/white" />
+    <Button
+        android:id="@+id/advice_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="মোবাইল ব্যাবহারে পরামর্শ"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/advice_mobile"
+        android:background="@drawable/white" />
+
+
+    </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/home1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/home"
+        android:gravity="center" />
+
+</RelativeLayout>

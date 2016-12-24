@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/td/Downloads/ICTACTBANGLADESH1/app/build/intermediates/res/merged/debug/drawable-hdpi/fbb.png",
+        "source": "/home/td/Downloads/ICTACTBANGLADESH1/app/src/main/res/drawable-hdpi/fbb.png"
+    },
+    {
+        "merged": "/home/td/Downloads/ICTACTBANGLADESH1/app/build/intermediates/res/merged/debug/drawable-hdpi/logo.png",
+        "source": "/home/td/Downloads/ICTACTBANGLADESH1/app/src/main/res/drawable-hdpi/logo.png"
+    },
+    {
+        "merged": "/home/td/Downloads/ICTACTBANGLADESH1/app/build/intermediates/res/merged/debug/drawable-hdpi/bangladesh.png",
+        "source": "/home/td/Downloads/ICTACTBANGLADESH1/app/src/main/res/drawable-hdpi/bangladesh.png"
+    },
+    {
+        "merged": "/home/td/Downloads/ICTACTBANGLADESH1/app/build/intermediates/res/merged/debug/drawable-hdpi/splash_screen_name.png",
+        "source": "/home/td/Downloads/ICTACTBANGLADESH1/app/src/main/res/drawable-hdpi/splash_screen_name.png"
+    }
+]

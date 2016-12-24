@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="fill_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="four.ingenium.cyberactbd.Home"
+     >
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+    <Button
+        android:id="@+id/home_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="বিস্তারিত বর্ণনা"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/details"
+        android:background="@drawable/white"
+         />
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/home_advise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="পরামর্শ"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/advise"
+        android:background="@drawable/white" />
+    <Button
+        android:id="@+id/home_law"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="আইসিটি আইন ২০০৬"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/law"
+        android:background="@drawable/white" />
+    <Button
+        android:id="@+id/home_reservedlaw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="সংশোধিত আইন ২০১৩"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/reserve"
+        android:background="@drawable/white" />
+    <Button
+        android:id="@+id/home_tribunal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="বিচার ট্রাইবুনাল"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/tribunal"
+        android:background="@drawable/white" />
+
+        <Button
+        android:id="@+id/home_aboutapps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="অ্যাপ্লিকেশন সম্পর্কে"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/tribunal"
+        android:background="@drawable/white" />
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="four.ingenium.cyberactbd.Home"
+     >
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+    <Button
+        android:id="@+id/details_cybercrime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="সাইবার অপরাধ "
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/detailciber"
+        android:background="@drawable/white"
+         />
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/details_cyberhistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="সাইবার আইনের ইতিহাস"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/detailhistory"
+        android:background="@drawable/white" />
+    <Button
+        android:id="@+id/detail_virus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="ভাইরাস তথ্য"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/detailvirus"
+        android:background="@drawable/white" />
+
+
+    </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/home"
+        android:layout_marginBottom="0dp"
+        android:gravity="center" />
+
+</RelativeLayout>

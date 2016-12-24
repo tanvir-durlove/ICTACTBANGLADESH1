@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ICT ACT BANGLADESH</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_fragment">হোম</string>
+    <string name="title_activity_video_fragment">ভিডিও</string>
+    <string name="title_activity_start">ICT ACT BANGLADESH</string>
+    <string name="title_activity_details">বিস্তারিত</string>
+    <string name="title_activity_advice">পরামর্শ</string>
+    <string name="title_activity_ict_law">আইসিটি আইন ২০০৬</string>
+    <string name="title_activity_reserved_law">সংশোধিত আইন ২০১৩</string>
+    <string name="title_activity_tribunal">বিচার ট্রাইব্যুনাল</string>
+    <string name="title_activity_aboutapps">অ্যাপ্লিকেশন সম্পর্কে</string>
+    <string name="title_activity_video1">আনলাইন চ্যাটিং</string>
+    <string name="title_activity_video2">ই-মেইল</string>
+    <string name="title_activity_video3">পাসওয়ার্ড</string>
+    <string name="title_activity_video4">ফেইক-আইডি</string>
+    <string name="title_activity_video5">অনলাইন লেনদেন </string>
+    <string name="title_activity_crime">সাইবার অপরাধ</string>
+    <string name="title_activity_ciberhistory">সাইবার আইনের ইতিহাস</string>
+    <string name="title_activity_virus">ভাইরাস তথ্য</string>
+    <string name="title_activity_generaltips">সাধারন পরামর্শ</string>
+    <string name="title_activity_computertips">কম্পিউটার ব্যাবহারে পরামর্শ</string>
+    <string name="title_activity_mobiletips">মোবাইল ব্যাবহারে পরামর্শ</string>
+    <string name="title_activity_law_one">প্রথম অধ্যায়</string>
+    <string name="title_activity_law_two">দ্বিতীয় অধ্যায়</string>
+    <string name="title_activity_law_three">তৃতীয় অধ্যায়</string>
+    <string name="title_activity_law_four">চতুর্থ অধ্যায়</string>
+    <string name="title_activity_law_five">পঞ্চম অধ্যায়</string>
+    <string name="title_activity_law_six">ষষ্ঠ অধ্যায়</string>
+    <string name="title_activity_law_seven">সপ্তম অধ্যায়</string>
+    <string name="title_activity_law_eight">অষ্ঠম অধ্যায়</string>
+    <string name="title_activity_law_nine">নবম অধ্যায়</string>
+    <string name="_data_data_four_ingeniumbd_ictactbd_databases_">/data/data/four.ingeniumbd.ictactbd/databases/</string>
+
+</resources>
